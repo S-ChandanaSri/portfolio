@@ -34,14 +34,12 @@ export default function Home() {
             <a className="nav-link"><b>Portfolio</b></a>
           </div>
           <div className="navbarauto">
-            <Link to={'/'}
+            <a href='/' style={{textDecoration:"none",color:'white'}}
             className="nav-link"><b>Home</b>
-            </Link>
-            <a className="nav-link">About</a>
-            <ScrollLink to="skills-section" smooth={true} duration={500} offset={650} className="nav-link">Skill</ScrollLink>
-
-            <a className="nav-link">Portfolio</a>
-            <a className="nav-link">Contact</a>
+            </a>
+            <ScrollLink to="experi-section" smooth={true} duration={500} offset={2050} className="nav-link">Experience</ScrollLink>
+            <ScrollLink to="skills-section" smooth={true} duration={500} offset={650} className="nav-link">Skills</ScrollLink>
+            <ScrollLink to='projects-section' smooth={true} duration={500} offset={2550} className="nav-link">Projects</ScrollLink>
             
           </div>
         </div>
@@ -94,12 +92,16 @@ export default function Home() {
       <Education/>
 
 
-      <Experience/>
-    
-<div style={{marginBottom:"2rem"}}>
-<Projects/>
+<Element name='experi-section'>
+<Experience/>
 
-</div>
+</Element>
+    
+    <Element name='projects-section'>
+
+    <Projects/>
+
+    </Element>
 
     
     </div>
