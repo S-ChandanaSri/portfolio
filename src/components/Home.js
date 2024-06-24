@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import Experience from './Experience';
 
 
 export default function Home() {
@@ -92,17 +93,14 @@ export default function Home() {
       </Element>
       <Education/>
 
+
+      <Experience/>
     
-
-    <section style={{position: "absolute",top:"150rem",left:"40rem"}}>
-      <h2 className="heading" style={{color: "#00FFFF",fontSize: "2rem"}}>EXPERIENCE</h2>
-
-
-    </section>
-    <Projects/>
-<div className='footer'>
+<div style={{marginBottom:"2rem"}}>
+<Projects/>
 
 </div>
+
     
     </div>
   );

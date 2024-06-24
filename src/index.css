@@ -110,7 +110,7 @@ code {
   position: relative;
 }
 .timeline-item:last-child{
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 .timeline-item:nth-child(odd){
   padding-right: calc(50% + 30px);
@@ -196,6 +196,12 @@ code {
 }
 .bar {
   font-size: 23px;
+
+}
+.bar:hover{
+  color: var(--main-color);
+  cursor: pointer;
+
 }
 
 .technical-bars .bar {

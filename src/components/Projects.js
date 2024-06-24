@@ -3,7 +3,7 @@ import React from 'react'
 export default function Projects() {
   return (
     <div>
-      <section style={{position: "absolute",top: "153rem",left: "10rem"}}>
+      <section style={{position: "absolute",top: "183rem",left: "10rem"}}>
       <h2 className="heading" style={{color: "#00FFFF",fontSize: "2rem"}}>PROJECTS</h2>
       <div className="timeline-items">
         <div className="timeline-item">
