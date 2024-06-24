@@ -3,7 +3,7 @@ import React from 'react'
 export default function Education() {
   return (
     <div>
-          <section className="education" id="education" style={{position: "absolute",top: "95rem",left: "18rem"}}  >
+          <section className="education" id="education" style={{position: "absolute",top: "91rem",left: "24rem"}}  >
       <h2 className="heading" style={{color: "#00FFFF",fontSize: "2rem"}}>Education</h2>
       <div className="timeline-items">
         <div className="timeline-item">

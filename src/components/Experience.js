@@ -3,9 +3,9 @@ import React from 'react'
 export default function Experience() {
   return (
     <div>
-                    <h2 className="heading" style={{color: "#00FFFF",fontSize: "2rem",position:"absolute",top:"150rem",left:"35rem"}}>EXPERIENCE</h2>
+                    <h2 className="heading" style={{color: "#00FFFF",fontSize: "2rem",position:"absolute",top:"141rem",left:"41rem"}}>EXPERIENCE</h2>
 
-            <section style={{position: "absolute",top:"158rem",left:"18rem"}}>
+            <section style={{position: "absolute",top:"148rem",left:"18rem"}}>
 
             <div className="timeline-ite" >
           
